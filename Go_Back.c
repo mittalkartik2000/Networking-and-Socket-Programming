@@ -6,7 +6,7 @@
 #include <string.h>
 #include <arpa/inet.h>
 #include <unistd.h>
-
+#include<stdlib.h>
 int main(){
 int welcomeSocket, newSocket;
 char buffer[1024];
